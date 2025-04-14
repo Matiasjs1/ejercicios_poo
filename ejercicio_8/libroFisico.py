@@ -21,7 +21,7 @@ class LibroFisico(Libro):
         if tupla == None:
             raise ValueError("El usuario no tiene ese libro")
         diferencia = datetime.now() - tupla[1]
-        if diferencia.day() > 30:
+        if diferencia.days > 30:
             raise ValueError("No se puede tardar más de 30 dias en devolver un libro")
         usuario.libros.remove(tupla)
         self.disponibilidad = True

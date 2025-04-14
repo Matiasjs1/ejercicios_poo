@@ -1,3 +1,4 @@
+import os
 class Usuario:
     def __init__(self, nombre, dni):
         self.nombre = nombre
@@ -10,11 +11,15 @@ class Usuario:
         try:
             libro.asignarLibro(self)
         except ValueError as e:
+            os.system("cls")
             print("Error: ", e)
+            os.system("pause")
 
 
     def devolverLibro(self, libro):
         try:
             libro.quitarLibro(self)
         except ValueError as e:
+            os.system("cls")
             print("Error: ", e)
+            os.system("pause")

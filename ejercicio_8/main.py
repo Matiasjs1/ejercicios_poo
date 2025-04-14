@@ -149,7 +149,8 @@ if __name__ == "__main__":
                 print("Error: ", e)
                 os.system("pause")
                 continue
-            usuario.devolverLibro(usuario.libros[libroDevolver-1])
+            libroD = usuario.libros[libroDevolver-1][0]
+            usuario.devolverLibro(libroD)
         elif accion == 3:
             salir = True
             

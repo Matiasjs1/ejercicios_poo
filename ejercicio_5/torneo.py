@@ -26,7 +26,7 @@ class Torneo:
         for i in self.boxeadores:
             if i.calcular_puntaje_total() > boxeadorMaximo.calcular_puntaje_total():
                 boxeadorMaximo = i
-        return i
+        return boxeadorMaximo
 
 
     
@@ -40,13 +40,27 @@ class Torneo:
             eficiencia = victorias / len(i.historial)
             listaA.append((i,eficiencia))
        
-        return listaA
+        return ordenarLista(listaA)
 
     def ordenarLista(self,lista):
-        pass
+        listaA = []
+        while lista:
+            mayor = lista[0]
+            for i in lista:
+                if i[1] > mayor[1]:
+                    mayor = i
+            listaA.append(mayor)
+            lista.remove(mayor)
+        return listaA
 
     def mostrarRankingGeneral(self):
-        pass
+        listaA = []
+        for i in self.boxeadores:
+            listaA.append((i, i.calcular_puntaje_total()))
+        listaFinal = ordenarLista(listaA)
+        for i in listaFinal:
+            print(i.nombre, i[1])
+        return listaFinal
 
 
 

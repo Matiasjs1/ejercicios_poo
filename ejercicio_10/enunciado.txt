@@ -1,0 +1,27 @@
+10. Simulador de Misión Espacial
+Una agencia espacial internacional necesita un simulador para gestionar misiones
+espaciales tripuladas a distintos planetas. Cada misión debe cumplir con ciertos requisitos para
+poder lanzarse. Se requiere que la simulación esté organizada utilizando clases y objetos, y que
+incluya manejo de errores y excepciones en distintos puntos del flujo del programa.
+Cada nave espacial debe tener un nombre, una capacidad máxima de tripulantes, y una
+cantidad inicial de combustible. No se deben permitir valores negativos ni capacidades inferiores
+a 1. Si se intenta crear una nave con datos inválidos, se debe lanzar una excepción personalizada.
+Los astronautas tienen un nombre, edad, una especialidad (como navegación, medicina
+o mantenimiento) y un nivel de salud que comienza en 100. Durante la misión, pueden
+enfrentarse a eventos que reduzcan su salud. Si esta cae a cero o menos, el astronauta no podrá
+continuar participando de la misión, lo cual debe reflejarse en la simulación con una excepción
+adecuada.
+Para lanzar una misión, es obligatorio contar con al menos 3 astronautas y que estén
+cubiertas las tres especialidades fundamentales: navegación, medicina y mantenimiento. Si
+
+estos requisitos no se cumplen, se debe impedir el inicio de la misión mediante el lanzamiento
+de una excepción clara y específica.
+Durante la misión, la nave consumirá combustible en base a la distancia del destino. Si
+el combustible no es suficiente, se debe cancelar el viaje y mostrar un mensaje adecuado al
+usuario. Además, se generarán eventos aleatorios (como tormentas solares, fallas técnicas o
+impactos de meteoritos) que afectan a los astronautas, reduciendo su salud en proporciones
+variables. Cada evento debe validarse para que sus valores estén dentro de un rango lógico, y
+en caso contrario, debe lanzarse una excepción que interrumpa el evento.
+Al finalizar la simulación, se debe mostrar un reporte con el estado final de la misión:
+combustible restante, astronautas sobrevivientes, salud promedio de la tripulación, y si el
+destino fue alcanzado o no.

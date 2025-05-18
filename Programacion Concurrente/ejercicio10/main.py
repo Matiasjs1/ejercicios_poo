@@ -10,11 +10,11 @@ def cliente(url, nombreCliente):
     servidor.recibir_peticion(url, nombreCliente, lock)
 
 def main():
-    cliente1 = th.Thread(target=cliente, args=('https://pornhub.com', 'Renzo Piris'))
-    cliente2 = th.Thread(target=cliente, args=('https://xvideos.es', 'Dario Guagliardo'))
-    cliente3 = th.Thread(target=cliente, args=('https://x.com/Maplestar_Anime', 'Matias Sesto'))
-    cliente4 = th.Thread(target=cliente, args=('https://xnxx.com', 'Facundo Chajade'))
-    cliente5 = th.Thread(target=cliente, args=('https://rule34.xxx', 'Santiago Vallejos'))
+    cliente1 = th.Thread(target=cliente, args=('https://youtube.com', 'Renzo Piris'))
+    cliente2 = th.Thread(target=cliente, args=('https://instagram.com', 'Dario Guagliardo'))
+    cliente3 = th.Thread(target=cliente, args=('https://twitch.tv', 'Matias Sesto'))
+    cliente4 = th.Thread(target=cliente, args=('https://google.com', 'Facundo Chajade'))
+    cliente5 = th.Thread(target=cliente, args=('https://x.com', 'Santiago Vallejos'))
 
     cliente1.start()
     cliente2.start()

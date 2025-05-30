@@ -1,0 +1,19 @@
+# 5. Simulación de procesos contables con POO y multiprocessing
+# Se desea simular un sistema de gestión contable básico. El proceso
+# principal (padre) debe solicitar al usuario la cantidad de operaciones contables a
+# realizar. Luego, debe crear dos procesos hijos:
+# • El primer proceso hijo debe leer un archivo llamado gastos.txt que contiene
+# montos de egresos (uno por línea) y calcular el total de gastos.
+# • El segundo proceso hijo debe leer un archivo llamado ingresos.txt que
+# contiene montos de ingresos (uno por línea) y calcular el total de ingresos.
+# Ambos procesos hijos deben enviar sus resultados al proceso padre
+# utilizando una cola de comunicación. El padre, al recibir los resultados, debe
+# calcular el balance final y mostrarlo por pantalla.
+# En el programa debe implementarse una clase base Operación con clases
+# derivadas Gasto e Ingreso. Cada una de estas últimas debe tener el método
+# calcular_total().
+# Se debe simular el cambio de estado de cada proceso: listo, ejecutando,
+# bloqueado, finalizado. Además, se debe capturar posibles excepciones como
+# archivos no encontrados o líneas mal formateadas.
+# Por último, el resultado final debe guardarse también en un archivo
+# “balance_final.txt”

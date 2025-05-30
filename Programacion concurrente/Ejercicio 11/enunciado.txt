@@ -1,5 +1,0 @@
-Implementa una clase ImpresoraCompartida. Varios hilos representarán
-usuarios que quieren imprimir documentos. Solo un hilo puede usar la impresora a
-la vez (simulá con Lock). Cada hilo debe "esperar" si la impresora está ocupada.
-Simulá que un hilo puede fallar al imprimir (lanza una excepción). Mostrá en
-consola los estados: Esperando, Imprimiendo, Error, Terminado.

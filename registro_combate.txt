@@ -1,0 +1,68 @@
+1 le infligió 10.8 de daño a 2
+La vida de 2 es de 95.2
+2 le infligió 7.4 de daño a 1
+La vida de 1 es de 94.6
+1 le infligió 15.04 de daño a 2
+La vida de 2 es de 86.16
+2 le infligió 6.720000000000001 de daño a 1
+La vida de 1 es de 89.88
+1 le infligió 14.24 de daño a 2
+La vida de 2 es de 77.92
+2 le infligió 7.88 de daño a 1
+La vida de 1 es de 84.0
+1 le infligió 13.440000000000001 de daño a 2
+La vida de 2 es de 70.48
+2 le infligió 4.64 de daño a 1
+La vida de 1 es de 81.36
+1 le infligió 14.96 de daño a 2
+La vida de 2 es de 61.52
+2 le infligió 6.48 de daño a 1
+La vida de 1 es de 76.88
+1 le infligió 13.68 de daño a 2
+La vida de 2 es de 53.84
+2 le infligió 4.24 de daño a 1
+La vida de 1 es de 74.64
+1 le infligió 8.8 de daño a 2
+La vida de 2 es de 51.040000000000006
+2 le infligió 7.08 de daño a 1
+La vida de 1 es de 69.56
+1 le infligió 8.8 de daño a 2
+La vida de 2 es de 48.24000000000001
+2 le infligió 5.12 de daño a 1
+La vida de 1 es de 66.44
+1 le infligió 13.84 de daño a 2
+La vida de 2 es de 40.400000000000006
+2 le infligió 7.48 de daño a 1
+La vida de 1 es de 60.959999999999994
+1 le infligió 10.32 de daño a 2
+La vida de 2 es de 36.080000000000005
+2 le infligió 7.359999999999999 de daño a 1
+La vida de 1 es de 55.599999999999994
+1 le infligió 10.48 de daño a 2
+La vida de 2 es de 31.600000000000005
+2 le infligió 4.32 de daño a 1
+La vida de 1 es de 53.279999999999994
+1 le infligió 9.36 de daño a 2
+La vida de 2 es de 28.240000000000006
+2 le infligió 7.16 de daño a 1
+La vida de 1 es de 48.11999999999999
+1 le infligió 10.4 de daño a 2
+La vida de 2 es de 23.840000000000003
+2 le infligió 4.96 de daño a 1
+La vida de 1 es de 45.15999999999999
+1 le infligió 13.440000000000001 de daño a 2
+La vida de 2 es de 16.400000000000002
+2 le infligió 6.0 de daño a 1
+La vida de 1 es de 41.15999999999999
+1 le infligió 12.48 de daño a 2
+La vida de 2 es de 9.920000000000002
+2 le infligió 6.6 de daño a 1
+La vida de 1 es de 36.55999999999999
+1 le infligió 15.120000000000001 de daño a 2
+La vida de 2 es de 0.8000000000000007
+2 le infligió 5.88 de daño a 1
+La vida de 1 es de 32.679999999999986
+1 le infligió 10.56 de daño a 2
+La vida de 2 es de 0
+Terminó el combate
+El ganador es 1

@@ -1,0 +1,28 @@
+6. Simulación de combate con procesos y programación orientada a objetos
+En este ejercicio se desarrollará una aplicación que simule el combate de un
+videojuego básico entre personajes. El proceso principal (padre) representará al
+sistema de juego, que será responsable de interactuar con el usuario para que este
+cree dos personajes combatientes. Cada personaje tendrá una clase específica,
+derivada de una clase base llamada Personaje, e incluirá atributos como nombre,
+puntos de vida, ataque y defensa.
+Una vez creados los personajes, el proceso padre iniciará dos procesos
+hijos. Cada hijo representará un personaje del combate. El combate se desarrollará
+por turnos simulados. En cada turno, el personaje atacante calculará su daño (en
+función de su ataque y del azar, aumentando en x% el daño), enviará esa
+información al proceso padre, quien la reenviará al proceso defensor para que
+calcule el daño real recibido (teniendo en cuenta la defensa), reduzca su vida y
+notifique su nuevo estado al padre. El padre se encargará de mostrar por consola la
+evolución del combate y determinará cuándo uno de los personajes ha perdido
+todos sus puntos de vida.
+Durante la ejecución se deberá simular el cambio de estados de los
+procesos (,Listo ejecutando, bloqueado y finalizado). También se utilizará la
+comunicación entre procesos mediante colas para el envío y recepción de ataques
+y resultados. Se debe implementar herencia y polimorfismo en las clases de
+personajes, de modo que, por ejemplo, un Guerrero y un Mago hereden de
+Personaje, pero sobrescriban el método atacar() o defender() con comportamientos
+distintos. Estos comportamientos distintos, quedan a criterio del desarrollador (o
+sea, ustedes).
+Se deben manejar posibles errores como división por cero, tipo de dato
+incorrecto al ingresar valores o interrupciones inesperadas en el flujo de datos entre
+procesos. Además, se debe registrar el desarrollo del combate y el ganador final en
+un archivo de texto llamado registro_combate.txt.
